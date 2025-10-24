@@ -14,6 +14,7 @@ public class RabbitMQConfig {
     public static final String EXCHANGE_NAME = "example.exchange";
     public static final String ROUTING_KEY = "routing.key";
 
+
     @Bean
     public Queue exampleQueue() {
         return new Queue(QUEUE_NAME, true);
